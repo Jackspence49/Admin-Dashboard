@@ -1,0 +1,72 @@
+
+  *{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.color {
+    color: #A4A9AD;
+    color: #51513D;
+    color: #bf5700
+}
+
+/* Dashboard */
+.dashboard {
+    background-color:#51513D;
+    color: white;
+    grid-area: 1 / 1 / 4 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+    font-size: 1rem;
+}
+
+img{
+    height: 1rem;
+    padding-left: 20px;
+}
+
+.DashboardHeader{
+    font-size: 1.3rem;
+}
+.dashboardIcon {
+   height: 1.3rem;
+}
+
+
+.header{
+    background-color: white;
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.projects {
+    background-color: #A4A9AD;
+    grid-area: 2 / 2 / 4 / 3;
+}
+
+.announcements {
+    background-color: #A4A9AD;
+    grid-area: 2 / 3 / 4 / 3;
+}
+
+.trending {
+    background-color: #A4A9AD;
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.color {
+    color: #A4A9AD;
+    color: #51513D;
+    color: #bf5700
+}
